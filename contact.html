@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact - TechFlow Solutions">
+    <title>Contact - TechFlow Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">TechFlow</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Let's start your next project!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p class="section-subtitle">Multiple ways to reach us</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; margin-bottom: 3rem;">
+                <div style="text-align: center; padding: 2rem; background: #f9f9f9; border-radius: 8px;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">📧</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@techflow.com" style="color: var(--secondary-color); text-decoration: none;">info@techflow.com</a></p>
+                </div>
+                <div style="text-align: center; padding: 2rem; background: #f9f9f9; border-radius: 8px;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">📞</div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+15551234567" style="color: var(--secondary-color); text-decoration: none;">(555) 123-4567</a></p>
+                </div>
+                <div style="text-align: center; padding: 2rem; background: #f9f9f9; border-radius: 8px;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">📍</div>
+                    <h3>Address</h3>
+                    <p>123 Web Street<br>Tech City, TC 12345</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 3rem;">Contact Form</h2>
+            <p class="section-subtitle">Send us a message and we'll respond within 24 hours</p>
+
+            <!-- Contact Form -->
+            <div style="max-width: 600px; margin: 3rem auto;">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service" style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px; font-family: 'Poppins', sans-serif; font-size: 1rem;">
+                            <option value="">Select a service</option>
+                            <option value="web-design">Web Design</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="seo">SEO Optimization</option>
+                            <option value="mobile">Mobile Apps</option>
+                            <option value="support">Maintenance & Support</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="agree" style="margin-right: 0.5rem;" required>
+                            I agree to be contacted about my inquiry
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn" style="width: 100%; padding: 1rem; font-size: 1rem; cursor: pointer;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Hours Section -->
+    <section style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white;">
+        <div class="container">
+            <h2 style="color: white;">Business Hours</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; text-align: center;">
+                <div>
+                    <h4 style="color: var(--secondary-color); margin-bottom: 1rem;">Monday - Friday</h4>
+                    <p>9:00 AM - 6:00 PM</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--secondary-color); margin-bottom: 1rem;">Saturday</h4>
+                    <p>10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--secondary-color); margin-bottom: 1rem;">Sunday</h4>
+                    <p>Closed</p>
+                </div>
+            </div>
+
+            <p style="text-align: center; margin-top: 2rem; font-style: italic;">For urgent inquiries, please call our emergency number</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-subtitle">Quick answers to common questions</p>
+            
+            <div style="max-width: 700px; margin: 3rem auto;">
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">How long does a typical project take?</h4>
+                    <p>Project timelines vary depending on complexity. A simple website might take 4-6 weeks, while more complex applications can take 2-3 months or longer. We'll provide an exact timeline during the discovery phase.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">What is your payment process?</h4>
+                    <p>We typically require a 50% deposit to start the project, with the remaining 50% due upon completion. We also offer flexible payment plans for larger projects.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Do you provide hosting services?</h4>
+                    <p>While we don't directly provide hosting, we recommend reliable hosting providers and can assist with the setup and configuration of your website.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Can you help with website maintenance?</h4>
+                    <p>Absolutely! We offer comprehensive maintenance and support packages to keep your website secure, updated, and performing optimally.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">What technologies do you work with?</h4>
+                    <p>We're proficient in a wide range of technologies including HTML5, CSS3, JavaScript, React, Node.js, Python, and many more. We choose the best tech stack for your specific needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About TechFlow</h4>
+                <p>We create beautiful, functional websites that help businesses grow online.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>Email: info@techflow.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Address: 123 Web Street, Tech City</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechFlow Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

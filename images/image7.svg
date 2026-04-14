@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="grad7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#grad7)"/>
+  <path d="M 100 200 L 150 100 L 200 150 L 250 80 L 300 180 L 350 100" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.3"/>
+  <text x="200" y="260" font-size="24" fill="white" text-anchor="middle" font-family="Arial">Image 7</text>
+</svg>
